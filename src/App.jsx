@@ -18,10 +18,10 @@ const App = () => {
         <Hero />
       </section>
       <section className="padding">
-        <SuperQuality />
+        <PopularProducts />
       </section>
       <section className="padding">
-        <PopularProducts />
+        <SuperQuality />
       </section>
       <section className="padding-x py-10">
         <Services />
