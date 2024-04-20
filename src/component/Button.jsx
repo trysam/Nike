@@ -6,6 +6,7 @@ const Button = ({
   textColor,
   hoverColor,
   focus,
+  fullWidth,
 }) => {
   return (
     <button
@@ -13,7 +14,7 @@ const Button = ({
         backgroundColor
           ? `${backgroundColor} ${hoverColor} ${textColor} ${borderColor} ${focus}`
           : "hover:bg-red-500 bg-coral-red text-slate-100 focus:ring-red-200 "
-      }`}
+      } ${fullWidth && "w-full"}`}
     >
       {label}
 
